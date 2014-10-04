@@ -1,6 +1,6 @@
 #include "Render.h"
 #include <stdio.h>
-#include <d3dx9.h>
+//#include <d3dx9.h>
 
 CRender::CRender(){
 }

@@ -20,7 +20,7 @@ Vector v2[8];
 int indices[36];
      //3각형이 2개
 
-int APIENTRY wWinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance
+int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance
 					 ,LPSTR lpszCmdParam,int nCmdShow)
 {
 	HWND hWnd;
@@ -194,7 +194,7 @@ void Render(){
 
 void main(){
 
-	wWinMain(GetModuleHandle(NULL),NULL,NULL,SW_SHOW);
+	WinMain(GetModuleHandle(NULL),NULL,"",SW_SHOW);
 
 	Setup();
 
